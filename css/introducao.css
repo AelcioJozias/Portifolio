@@ -20,6 +20,23 @@ main {
     max-width: 100%;
 }
 
+.bloco-inf-iniciais {
+  position: relative;
+}
+
+.bloco-inf-iniciais::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 110px;
+  background: url(/images/detalhe.svg) no-repeat;
+  z-index: -1;
+  position: absolute;
+  top: 22px;
+  left: -40px;
+}
+
+
 @media(max-width: 800px) {
     main {
         grid-template-columns: 1fr 1fr;
