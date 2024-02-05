@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+    padding: 40px 10px
+}
+
+.titulo-profissional {
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 0;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+}
+
+.profile-img {
+    max-width: 100%;
+}
+
+@media(max-width: 800px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .titulo-profissional {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .profile-img {
+        display: none;
+    }
+
+    main {
+        gap: 40px;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #FFF;
+    font-family: 'Fira Sans', sans-serif
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+    padding: 5px 10px;
+}
+
+.ajustar-no-container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cor-de-fonte-de-subtitulo {
+    color: #4e4b4b;
+}
+
