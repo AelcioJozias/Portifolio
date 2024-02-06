@@ -10,6 +10,8 @@ main {
     font-weight: bold;
     font-size: 4.5rem;
     letter-spacing: 0;
+    line-height: 1.15;
+    margin: 0 0 30px 0;
 }
 
 .subtitulo {
@@ -29,11 +31,11 @@ main {
   display: block;
   width: 130px;
   height: 110px;
-  background: url(/images/detalhe.svg) no-repeat;
+  background: url(/images/detalhe.svg) no-repeat center;
   z-index: -1;
   position: absolute;
-  top: 22px;
   left: -40px;
+  top: -16px;
 }
 
 
@@ -44,8 +46,15 @@ main {
     }
 
     .titulo-profissional {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
+
+    .bloco-inf-iniciais::before {
+        width: 32px;
+        height: 11px;
+        top: -14px;
+        left: 0px;
+      }
 }
 
 @media(max-width: 400px) {
