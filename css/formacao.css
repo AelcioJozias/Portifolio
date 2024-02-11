@@ -1,0 +1,137 @@
+.formacao-section {
+  background-color: #141414;
+  color: #a3a3a3;
+}
+
+.formacao-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 120px 20px;
+  gap: 100px;
+}
+
+.formacao-titulo {
+  color: #000000;
+  font-size: 8rem;
+  word-break: break-all;
+  text-transform: uppercase;
+}
+
+.formacao-resumo {
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+  
+  max-width: 40ch;
+}
+
+.formacao-resumo strong{
+  color: #fff;
+}
+
+.formacoes-universitaria {
+  display: flex;
+  margin-bottom: 60px;
+  gap: 20px;
+}
+
+.formacao-universitaria-card {
+  font-size: 0.875rem;
+  background-color: #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 4px;
+  position: relative;
+  line-height: 1.4;
+}
+
+.formacao-universitaria-card::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#B6F829, #67DD0A);
+  position: absolute;
+  top: 48px;
+  left: -3px;
+}
+
+.tipo-formacao {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.formacao-nome-do-curso {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.cursos-intensivos {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.cursos-intensivos-titulo {
+  font-size: 0.875rem;
+  color: #8F8F8F; 
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.cursos-intensivos-titulo::before {
+  content: "";
+  display: block;
+  background: url(/images/cursos.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -5px;
+  left: -35px;
+}
+
+.cursos-intensivos li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.cursos-intensivos span {
+  color: #8F8F8F;
+}
+
+.idiomas-titulo {
+  font-size: 0.875rem;
+  color: #8F8F8F; 
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  letter-spacing: 0ch;
+  position: relative;
+}
+
+.idiomas-titulo::before {
+  content: "";
+  display: block;
+  background: url(/images/idiomas.svg) no-repeat center;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -5px;
+  left: -35px;
+}
+
+.idiomas li {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.idiomas li span {
+  color: #8F8F8F;
+}
+
+
+
+
+
+
+

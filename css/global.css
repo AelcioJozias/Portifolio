@@ -43,3 +43,11 @@ img {
     color: #4e4b4b;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: #FFF;
+}
+
