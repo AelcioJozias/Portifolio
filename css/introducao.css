@@ -18,6 +18,10 @@ main {
     font-size: 1.5rem;
 }
 
+.span-full-stack {
+    padding-left: 70px;
+}
+
 .profile-img {
     max-width: 100%;
 }
@@ -55,6 +59,10 @@ main {
         top: -14px;
         left: 0px;
       }
+
+      .span-full-stack {
+        padding-left: 0px;
+    }
 }
 
 @media(max-width: 400px) {

@@ -50,7 +50,7 @@
 }
 
 .card-exp-lista li {
-  padding: 5px 10px;
+  padding: 6px 12px;
   background-color: #fff;
   max-height: 16px;
 }
@@ -63,6 +63,7 @@
 .card-exp p {
   padding: 5px 10px;  
   color: #525252;
+  line-height: 1.4;
 }
 
 .card-exp span {
