@@ -1,4 +1,4 @@
 # lading-page-perfil-profissional
-Essa lading page é um dos desafios do curso de html e css da origamid.
-Estou fazendo ela sozinho, para treinar o meu html e css, seguindo um 
-template do Figma.
+Um site que fala um pouco mais sobre minhas experiências profissionais.
+Fiz ele apenas com html e css, afim de aplicar o conhecimento adquirido no curso de HTML e CSS
+da Origamid e reforçar um pouco mais da base dessas tecnologias sem usar algum framework ou biblioteca.
