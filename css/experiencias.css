@@ -49,11 +49,7 @@
   flex-wrap: wrap;
 }
 
-.card-exp-lista li {
-  padding: 6px 12px;
-  background-color: #fff;
-  max-height: 16px;
-}
+
 
 .card-exp h3 {
   font-size: 1.125rem;
@@ -63,10 +59,9 @@
 .card-exp p {
   padding: 5px 10px;  
   color: #525252;
-  line-height: 1.4;
 }
 
-.card-exp span {
+.card-exp-ano {
   position: absolute;
   top: 25px;
   left: -80px;
@@ -76,6 +71,18 @@
 .card-exp {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.exp-icon {
+  width: 20px;  
+  padding-right: 5px;
+}
+
+.lista-com-icons {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  background-color: #fff;
 }
 
 
@@ -88,14 +95,14 @@
   display: none;
 }
 
-.card-exp span {
+.card-exp-ano {
   position: initial;
   order: 1;
   padding: 10px;
   
 }
 
-.card-exp span::before {
+.card-exp-ano::before {
   content: "Ano: ";
 }
 
