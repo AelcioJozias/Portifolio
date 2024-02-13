@@ -24,6 +24,7 @@ main {
 
 .profile-img {
     max-width: 100%;
+    border-radius: 5px;
 }
 
 .bloco-inf-iniciais {
