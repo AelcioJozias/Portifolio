@@ -114,12 +114,13 @@
     grid-template-columns: 1fr;
   }
 
-  .experiencias p {
-    margin-bottom: 10px;
-  }
-
   .card-exp-lista {
     margin-bottom: 10px;
 
   }
+
+  .resumo-exp {
+    margin-bottom: 30px;
+  }
+  
 }
